@@ -1,6 +1,6 @@
 EXCLUDES = $(addprefix --exclude , $(shell find . -iname '.*.sw*'))
 
-VERSION=0.6.6
+VERSION=0.6.7
 
 all: debug_template dist
 
